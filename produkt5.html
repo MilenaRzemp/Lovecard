@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8">
+  <title>Sklep z zaproszeniami</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--  Styles  -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/index.css" />
+  
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,400;0,500;1,200&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+</head>
+  
+<body>
+  
+<!-- NAWIGACJA -->  
+  <header>
+    <ol class="nav-flex">
+      <li class="menu link">
+        <a href="#" class="link-menu" id="menu-slide">Zaproszenia</a>
+        <ul class="menu-kat">
+          <li id="link-1"><a href="kategorie.html" class="link-kat">Wszystkie</a></li>
+          <li><a href="kategorie.html" class="link-kat">Klasyczne</a></li>
+          <li><a href="kategorie.html" class="link-kat">Romantyczne</a></li>
+          <li><a href="kategorie.html" class="link-kat">Nowoczesne</a></li>
+          <li><a href="kategorie.html" class="link-kat">Kwiatowe</a></li>
+          <li><a href="kategorie.html" class="link-kat">Pozostałe</a></li>
+        </ul>
+      </li>
+      <li class="link">
+        <a href="index.html#o-firmie" class="link-menu">O&nbsp;firmie</a>
+      </li>
+      <li class="logo">
+        <a href="index.html" class="link-menu">LoveCard</a></li>
+      <li class="link">
+       <a href="index.html#info" class="link-menu">Informacje</a>
+      </li>
+      <li class="koszyk link">
+        <a href="#" class="link-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-basket2" viewBox="0 0 16 16">
+          <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+          <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+          </svg>
+        </a>
+      </li>
+    </ol>
+ </header>
+
+<!-- PRODUKTY   -->
+ 
+  <div class="produkt-flex">
+    <div class="produkt-opis">
+      <div class="naglowek">3 karty kwiatowe</div>
+      <div class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla ante vitae eros feugiat, a convallis erat tristique. Phasellus fermentum lorem risus, eget egestas urna volutpat sed. Donec eget lacinia lectus. Ut at tempor felis, ornare porta leo. Vivamus venenatis eleifend tortor in mollis. Sed varius euismod justo eu convallis. Donec lacinia lacinia augue, vitae efficitur dolor efficitur eget. Etiam pulvinar, metus in convallis dignissim, ipsum est imperdiet eros, eget tempus arcu elit vitae sem. Etiam in dui odio. In felis lorem, volutpat a diam posuere, venenatis faucibus purus. Vestibulum et vehicula lectus, nec laoreet diam. Pellentesque gravida nisl erat, interdum vulputate turpis tincidunt eget.</div>
+      <button type="button" class="button">Do koszyka</button>
+    </div>
+    <div class="produkt-galeria">
+      <img class="produkt-img active" src="./img/produkt5-1.jpg" alt="zaproszenie ślubne">
+      <img class="produkt-img" src="./img/produkt5-1.jpg" alt="zaproszenie ślubne">
+      <img class="produkt-img" src="./img/produkt5-2.jpg" alt="zaproszenie ślubne">
+      <img class="produkt-img" src="./img/produkt5-3.jpg" alt="zaproszenie ślubne">
+    </div>
+  </div>
+
+  <div class="popup">
+    <span>&times;</span>
+    <img src="./img/produkt5-1.jpg" alt="powiększone zaproszenie ślubne">
+  </div>
+    
+  <div class="separator"></div>
+  
+  <div class="podobne">
+    <div class="naglowek">Podobne produkty</div>
+    <div class="podobne-img">
+      <a href="produkt4.html" class="podobne-link">
+        <img src="./img/produkt4-1.jpg" alt="zaproszenie ślubne">
+        <div>Klasyczne ze złotymi kwiatami</div>
+      </a>
+      <a href="produkt1.html" class="podobne-link">
+        <img src="./img/produkt1-1.jpg" alt="zaproszenie ślubne">
+        <div>Klasyczne z kokardą</div>
+      </a>
+      <a href="produkt3.html" class="podobne-link">
+        <img src="./img/produkt3-1.jpg" alt="zaproszenie ślubne">
+        <div>Kwadratowe ze złotymi kawiatami</div>
+      </a>
+    </div>
+  </div>
+  
+<!-- O FIRMIE -->
+  <div class="info-box">
+  <div id="info">
+    <div class="naglowek"><p>Zakupy</p>
+      <a href="#" class="tekst">Składanie zamówień</a>
+      <a href="#" class="tekst">Koszty i czas dostawy</a>
+      <a href="#" class="tekst">Formy płatności</a>
+    </div>
+    <div class="naglowek"><p>Informacje</p>
+      <a href="#" class="tekst">Regulamin</a>
+      <a href="#" class="tekst">Polityka prywatności</a>
+      <a href="#" class="tekst">Pliki cookies</a>
+    </div>
+    <div class="naglowek"><p>Kontakt</p>
+      <div class="tekst">LoveCard sp. z o.o.</div>
+      <div class="tekst">ul. Przykładowa 18</div>
+      <div class="tekst">01-001 Warszawa</div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div>developed by Milena Rzempołuch, 2022</div>
+  </footer>
+  
+<!-- Scripts -->
+  <script src="scripts/main.js"></script>
+</body>
+  
+</html>
